@@ -1,0 +1,121 @@
+
+.container_inline_centrado{
+	text-align: center;
+}
+
+.centrado{
+	text-align: center;
+}
+
+.boton_chevere{
+    display: block;
+    margin: 10px auto;
+    padding: 15px 32px;
+    text-align: center;
+
+    background-color: #4CAF50;
+    color: white;	
+    font-size: 16px;
+    border:none;
+}
+
+.boton_chevere:hover{
+    background-color: #4DBB56;
+}
+
+.container_flex{
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    
+}
+
+.boton_chevere_con_flexbox{
+    margin: 10px 0px; 
+    padding: 15px 32px;
+    background-color: #008CBA;
+    color: white;	
+    font-size: 16px;
+    border:none;
+}
+
+
+.lista{
+    list-style:none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista li{
+    background-color: #4CAF50;
+    margin: 10px 0px;
+    padding: 25px 40px;
+    color: #ffffff;
+}
+
+.alinear_izquierda{
+    display: flex;
+    align-self: flex-start;
+}
+
+.alinear_derecha{
+    display: flex;
+    align-self: flex-end;
+}
+
+.lista_con_espacio_entre_elementos{
+    list-style:none;
+    padding: 0px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+.lista_con_espacio_entre_elementos li {
+    background-color: blue;
+    margin: 10px 0px;
+    padding: 25px 40px;
+    color: #ffffff;
+}
+
+.lista_con_espacio_a_los_lados_por_elemento{
+    list-style:none;
+    padding: 0px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+.lista_con_espacio_a_los_lados_por_elemento li {
+    background-color: black;
+    margin: 10px 0px;
+    padding: 25px 40px;
+    color: #ffffff;
+}
+
+.lista_con_wrap{
+    list-style:none;
+    padding: 0px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+.lista_con_wrap li {
+    background-color: red;
+    margin: 10px 0px;
+    padding: 25px 40px;
+    color: #ffffff;
+}
